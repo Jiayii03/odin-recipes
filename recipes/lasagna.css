@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Libre+Baskerville&display=swap');
+
+body{
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: 'Libre Baskerville';
+    height: 300vh;
+}
+
+body::before{
+    background-image: url("https://media.istockphoto.com/id/865067608/photo/wood-table-top-on-blur-kitchen-wall-room-background.jpg?b=1&s=170667a&w=0&k=20&c=4B_9U2PK1qdLGjEyUFhOJsAxdT6QDy3WcIk07Fsj3wU=");
+    z-index: -1;
+    content: "";
+    display: block;
+    position: absolute; /*position relatively to the HTML document by default  */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300vh;
+    opacity: 0.2;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-size: contain;
+}
+
+h1, h2, p{
+    margin: 2vw;
+}
+
+p{
+    font-size: 22px
+}
+
+div.lasagna-photo{
+    height: 24vw;
+    width: 100%;
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
